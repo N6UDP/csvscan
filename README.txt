@@ -1,10 +1,12 @@
 = csvscan
 
-http://github.com/sandofsky/csvscan
+https://github.com/n6udp/csvscan
 
 == DESCRIPTION:
 
-This is a packaged version of CSVScan, written by MoonWolf. If you can read Japanese, checkout README.ja for whatever he said.
+Updated for Ruby 2.X
+
+This is a packaged version of CSVScan, written by MoonWolf. If you can read Japanese, checkout README.old.ja for whatever he said.
 
 On a 10,000 line file:
 
@@ -23,8 +25,7 @@ On a 10,000 line file:
 
 == FEATURES/PROBLEMS:
 
-* First version.
-* I have not tested this on Windows, and have no intention to.
+* Ruby 2.X support
 
 == SYNOPSIS:
 
@@ -35,12 +36,13 @@ On a 10,000 line file:
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* c compiler
+* ruby 2.X
 
 == INSTALL:
 
-* gem install sandofsky-csvscan --source http://gems.github.com
+* gem install n6udp-csvscan --source http://gems.github.com
 
 == LICENSE:
 
-Looks like the original source was LGPL, so I'm stuck with that.
+LGPL (original license)

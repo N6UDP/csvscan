@@ -3,9 +3,12 @@ Gem::Specification.new do |s|
   s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Ben Sandofsky"]
-  s.date = %q{2009-08-11}
-  s.description = %q{This is a packaged version of CSVScan, written by MoonWolf. If you can read Japanese, checkout README.ja for whatever he said.
+  s.authors = ["Lee Burton","Ben Sandofsky","Moonwolf"]
+  s.date = %q{2021-01-10}
+  s.description = %q{
+Updated for Ruby 2.X
+
+This is a packaged version of CSVScan, written by MoonWolf. If you can read Japanese, checkout README.ja for whatever he said.
 
 On a 10,000 line file:
 
@@ -20,7 +23,7 @@ On a 10,000 line file:
     real	0m0.860s
     user	0m0.782s
     sys	0m0.088s}
-  s.email = ["sandofsky@gmail.com"]
+  s.email = ["n6udp@n6udp.org"]
   s.extensions = ["ext/csvscan/extconf.rb"]
   s.extra_rdoc_files = ["README.txt", "History.txt", "Manifest.txt"]
   s.files = ["README.old.ja", "README.txt", "ext/csvscan/MANIFEST", "ext/csvscan/csvscan.c", "ext/csvscan/csvscan.rl", "ext/csvscan/extconf.rb", "setup.rb", "History.txt", "Manifest.txt", "Rakefile", "test/test_csvscan.rb"]
@@ -29,7 +32,7 @@ On a 10,000 line file:
   s.require_paths = ["ext"]
   s.rubyforge_project = %q{csvscan}
   s.rubygems_version = %q{1.3.3}
-  s.summary = %q{This is a packaged version of CSVScan, written by MoonWolf}
+  s.summary = %q{This is a packaged version of CSVScan, written by MoonWolf updated for Ruby 2.X}
   s.test_files = ["test/test_csvscan.rb"]
 
   if s.respond_to? :specification_version then

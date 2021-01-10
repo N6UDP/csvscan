@@ -8,6 +8,7 @@ class CSVScan
 end
 
 Hoe.spec 'csvscan' do
+  developer('Lee Burton', 'lburton@lburton.org')
   developer('Ben Sandofsky', 'sandofsky@gmail.com')
   license "LGPL-2.0-only"
   spec_extras[:extensions] = "ext/csvscan/extconf.rb"
