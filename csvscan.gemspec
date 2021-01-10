@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
-  s.name = %q{csvscan}
+  s.name = %q{n6udp-csvscan}
   s.version = "0.1.1"
-
+  s.license = "LGPL-2.0-only"
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lee Burton","Ben Sandofsky","Moonwolf"]
   s.date = %q{2021-01-10}
