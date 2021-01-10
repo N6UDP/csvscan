@@ -23,7 +23,7 @@ On a 10,000 line file:
   s.email = ["sandofsky@gmail.com"]
   s.extensions = ["ext/csvscan/extconf.rb"]
   s.extra_rdoc_files = ["README.txt", "History.txt", "Manifest.txt"]
-  s.files = ["README.ja", "README.txt", "ext/csvscan/MANIFEST", "ext/csvscan/csvscan.c", "ext/csvscan/csvscan.rl", "ext/csvscan/extconf.rb", "setup.rb", "History.txt", "Manifest.txt", "Rakefile", "test/test_csvscan.rb"]
+  s.files = ["README.old.ja", "README.txt", "ext/csvscan/MANIFEST", "ext/csvscan/csvscan.c", "ext/csvscan/csvscan.rl", "ext/csvscan/extconf.rb", "setup.rb", "History.txt", "Manifest.txt", "Rakefile", "test/test_csvscan.rb"]
   s.homepage = %q{http://github.com/sandofsky/csvscan}
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["ext"]

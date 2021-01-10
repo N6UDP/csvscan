@@ -1,5 +1,5 @@
-README.ja
 README.txt
+README.old.ja
 ext/csvscan/MANIFEST
 ext/csvscan/csvscan.c
 ext/csvscan/csvscan.rl
